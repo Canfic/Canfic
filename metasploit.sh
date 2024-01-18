@@ -41,8 +41,8 @@ pkg install -y binutils python autoconf bison clang coreutils curl findutils apr
 python3 -m pip install requests
 
 # Fix ruby BigDecimal 
-#center "* Fix ruby BigDecimal"
-#source <(curl -sL https://github.com/termux/termux-packages/files/2912002/fix-ruby-bigdecimal.sh.txt)
+center "* Fix ruby BigDecimal"
+source <(curl -sL https://github.com/termux/termux-packages/files/2912002/fix-ruby-bigdecimal.sh.txt)
 
 # Erase Old Metasploit Folder
 center "* Erasing old metasploit folder..."
